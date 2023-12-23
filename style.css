@@ -13,7 +13,7 @@
 
 :root {
     --bg--color: #ffffff;
-    --second-bg-color: #b91e1e;
+    --second-bg-color: #dc0e00;
     --text-color: #aec587;
     --main-color: #ff8c00;
 }
@@ -308,8 +308,11 @@ section {
 
 #home-image {
     width: 55rem;
-    margin: 2rem;
+    margin: 2rem auto; /* Set auto for the left and right margins to center horizontally */
+    max-width: 75%; /* Set the maximum width to 75% of the page */
+    display: block; /* Ensure the image is treated as a block element */
 }
+
 
 .about {
     display: flex;
